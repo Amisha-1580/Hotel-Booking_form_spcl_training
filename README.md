@@ -1,47 +1,53 @@
 🏨 Hotel Booking Form
 📌 Project Overview
 
-This project is a simple Hotel Booking Form developed as part of an Training task.
-The objective is to design and develop a responsive booking form that allows users to enter 
-their booking details such as check-in date, check-out date, room type, number of guests, and special requests.
+This project is a Hotel Booking Form developed as part of an internship task.
+The goal is to create a responsive form that allows users to book a hotel room by 
+entering details like check-in/check-out dates, room type, number of guests, and special requests.
 
-As of Day 2, the project focuses on creating the user interface and basic layout of the form.
+As of Day 3, the focus is on enhancing UI design and making the form responsive across different screen sizes.
 
 
-🚀 Features Implemented (Day 2)
+🚀 Features Implemented (Day 3)
 
-User-friendly hotel booking form interface.
-
-Input fields for:
+Fully structured hotel booking form with fields for:
 
 Check-in date
 
 Check-out date
 
-Room type (dropdown)
+Room type dropdown
 
 Number of guests
 
 Special requests (textarea)
 
-Submit button for form submission.
+Submit button included for form submission
 
-Clean and structured HTML layout.
+Improved CSS styling for input fields, textarea, dropdown, and buttons
 
-Basic CSS styling for proper alignment and spacing.
+Added hover effects for buttons
 
-Responsive layout using Flexbox.
+Responsive layout using Flexbox and media queries:
 
-Separate JavaScript file linked for future validation and interactive features.
+Mobile (<480px)
+
+Tablet (481px–768px)
+
+Desktop (>768px)
+
+Form layout adjusts automatically for different screen sizes
+
+Separate JavaScript file linked for future validation and interactive features
 
 
 🛠️ Technologies Used
 
-HTML5 – Structure of the form
+HTML5 – Form structure
 
-CSS3 – Styling and layout
+CSS3 – Styling and responsive layout
 
-JavaScript – (Planned for validation and interactivity)
+JavaScript – Minimal for now (submit alert), ready for validation
 
 Git & GitHub – Version control
 
@@ -64,18 +70,16 @@ Open index.html in any web browser.
 
 🔮 Next Steps (Planned)
 
-Implement JavaScript form validation.
+Implement JavaScript form validation for required fields.
 
-Add date validation logic to ensure the check-out date is later than the check-in date.
+Add check-out date validation to ensure it is later than the check-in date.
 
-Improve responsiveness for mobile and tablet screens.
+Display error messages for invalid inputs dynamically.
 
-Display error messages for invalid inputs.
-
-Add dynamic form behavior (optional enhancements).
+Further enhance UI/UX based on validation results.
 
 
 👨‍💻 Author
 
-Amisha Bhasme
-Training Project – Hotel Booking Form
+Amisha S. Bhasme
+Training  Project – Hotel Booking Form
