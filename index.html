@@ -3,6 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <title>Hotel Booking Form</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -12,15 +13,15 @@
 
     <form id="bookingForm">
       <!-- Check-in Date -->
-      <label>Check-in Date:</label>
+      <label for="checkin">Check-in Date:</label>
       <input type="date" id="checkin" required>
 
       <!-- Check-out Date -->
-      <label>Check-out Date:</label>
+      <label for="checkout">Check-out Date:</label>
       <input type="date" id="checkout" required>
 
       <!-- Room Type -->
-      <label>Room Type:</label>
+      <label for="roomType">Room Type:</label>
       <select id="roomType" required>
         <option value="">Select Room</option>
         <option>Single</option>
@@ -29,11 +30,11 @@
       </select>
 
       <!-- Guest Count -->
-      <label>Number of Guests:</label>
+      <label for="guests">Number of Guests:</label>
       <input type="number" id="guests" min="1" required>
 
       <!-- Special Requests -->
-      <label>Special Requests:</label>
+      <label for="requests">Special Requests:</label>
       <textarea id="requests" placeholder="Any special requests..."></textarea>
 
       <!-- Submit Button -->
