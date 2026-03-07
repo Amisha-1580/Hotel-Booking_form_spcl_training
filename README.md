@@ -1,55 +1,80 @@
 🏨 Hotel Booking Form
 📌 Project Overview
 
-This project is a Hotel Booking Form developed as part of an internship task.
-The goal is to create a responsive form that allows users to book a hotel room by 
-entering details like check-in/check-out dates, room type, number of guests, and special requests.
+The Hotel Booking Form is a web-based form developed as part of an internship task. The goal of this
+project is to build a responsive and interactive booking form that allows users to enter their booking
+details such as check-in/check-out dates, room type, number of guests, and special requests.
 
-As of Day 3, the focus is on enhancing UI design and making the form responsive across different screen sizes.
+As of Day 6, the project now includes dynamic date validation and interactive form behavior using JavaScript.
 
 
-🚀 Features Implemented (Day 3)
+🚀 Features Implemented (Up to Day 6)
+🧾 Form Fields
 
-Fully structured hotel booking form with fields for:
+Check-in Date
 
-Check-in date
+Check-out Date
 
-Check-out date
+Room Type (Single, Double, Suite)
 
-Room type dropdown
+Number of Guests
 
-Number of guests
+Special Requests (Optional)
 
-Special requests (textarea)
+Submit Button
 
-Submit button included for form submission
 
-Improved CSS styling for input fields, textarea, dropdown, and buttons
+🎨 User Interface
 
-Added hover effects for buttons
+Clean and modern UI design
 
-Responsive layout using Flexbox and media queries:
+Styled form inputs, dropdowns, and textarea
 
-Mobile (<480px)
+Hover effects on the submit button
 
-Tablet (481px–768px)
+Proper spacing and layout for better readability
 
-Desktop (>768px)
+📱 Responsive Design
 
-Form layout adjusts automatically for different screen sizes
+The form is responsive and works across multiple screen sizes:
 
-Separate JavaScript file linked for future validation and interactive features
+Mobile Devices (<480px)
+
+Tablets (481px–768px)
+
+Desktop Screens (>768px)
+
+Responsive layout is implemented using:
+
+Flexbox
+
+CSS Media Queries
+
+
+⚙️ JavaScript Interactivity (Day 6)
+
+The form now includes dynamic validation and user feedback:
+
+Prevents users from selecting past dates for check-in.
+
+Automatically updates the minimum checkout date based on the selected check-in date.
+
+Validates that the check-out date is later than the check-in date.
+
+Displays error messages if validation fails.
+
+Shows a success message after successful form submission.
 
 
 🛠️ Technologies Used
 
-HTML5 – Form structure
+HTML5 – Structure of the form
 
 CSS3 – Styling and responsive layout
 
-JavaScript – Minimal for now (submit alert), ready for validation
+JavaScript (Vanilla JS) – Form validation and dynamic behavior
 
-Git & GitHub – Version control
+Git & GitHub – Version control and project tracking
 
 
 📂 Project Structure
@@ -63,23 +88,25 @@ Hotel-Booking-Form/
 
 ▶️ How to Run the Project
 
-Open the project folder.
+1) Open the project folder.
 
-Open index.html in any web browser.
+2) Open index.html in any web browser.
 
 
-🔮 Next Steps (Planned)
+🔮 Upcoming Improvements (Next Steps)
 
-Implement JavaScript form validation for required fields.
+Improve form validation with better UI alerts.
 
-Add check-out date validation to ensure it is later than the check-in date.
+Add tooltips or helper text for form fields.
 
-Display error messages for invalid inputs dynamically.
+Implement booking confirmation messages.
 
-Further enhance UI/UX based on validation results.
+Enhance UI/UX for better user interaction.
+
+Deploy the project using GitHub Pages or Netlify.
 
 
 👨‍💻 Author
 
 Amisha S. Bhasme
-Training  Project – Hotel Booking Form
+Training Project – Hotel Booking Form
