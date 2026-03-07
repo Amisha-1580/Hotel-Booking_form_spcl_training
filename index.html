@@ -1,47 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Hotel Booking Form</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css">
+<meta charset="UTF-8">
+<title>Hotel Booking Form</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
-  <div class="container">
-    <h1>Hotel Booking Form</h1>
+<div class="container">
+<h1>Hotel Booking Form</h1>
 
-    <form id="bookingForm">
-      <!-- Check-in Date -->
-      <label for="checkin">Check-in Date:</label>
-      <input type="date" id="checkin" required>
+<form id="bookingForm">
 
-      <!-- Check-out Date -->
-      <label for="checkout">Check-out Date:</label>
-      <input type="date" id="checkout" required>
+<label>Check-in Date</label>
+<input type="date" id="checkin" required>
 
-      <!-- Room Type -->
-      <label for="roomType">Room Type:</label>
-      <select id="roomType" required>
-        <option value="">Select Room</option>
-        <option>Single</option>
-        <option>Double</option>
-        <option>Suite</option>
-      </select>
+<label>Check-out Date</label>
+<input type="date" id="checkout" required>
 
-      <!-- Guest Count -->
-      <label for="guests">Number of Guests:</label>
-      <input type="number" id="guests" min="1" required>
+<label>Room Type</label>
+<select id="roomType" required>
+<option value="">Select Room</option>
+<option>Single</option>
+<option>Double</option>
+<option>Suite</option>
+</select>
 
-      <!-- Special Requests -->
-      <label for="requests">Special Requests:</label>
-      <textarea id="requests" placeholder="Any special requests..."></textarea>
+<label>Number of Guests</label>
+<input type="number" id="guests" min="1" required>
 
-      <!-- Submit Button -->
-      <button type="submit">Book Now</button>
-    </form>
-  </div>
+<label>Special Requests</label>
+<textarea id="requests"></textarea>
 
-  <script src="script.js"></script>
+<button type="submit">Book Now</button>
+
+<p id="message"></p>
+
+</form>
+</div>
+
+<script src="script.js"></script>
+
 </body>
 </html>
