@@ -2,43 +2,46 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>Hotel Booking Form</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Hotel Booking Form</title>
 <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
 <div class="container">
+
 <h1>Hotel Booking Form</h1>
 
 <form id="bookingForm">
 
-<label>Check-in Date</label>
+<label for="checkin">Check-in Date</label>
 <input type="date" id="checkin" required>
 
-<label>Check-out Date</label>
+<label for="checkout">Check-out Date</label>
 <input type="date" id="checkout" required>
 
-<label>Room Type</label>
+<label for="roomType">Room Type</label>
 <select id="roomType" required>
 <option value="">Select Room</option>
-<option>Single</option>
-<option>Double</option>
-<option>Suite</option>
+<option value="Single">Single</option>
+<option value="Double">Double</option>
+<option value="Suite">Suite</option>
 </select>
 
-<label>Number of Guests</label>
-<input type="number" id="guests" min="1" required>
+<label for="guests">Number of Guests</label>
+<input type="number" id="guests" min="1" max="10" required>
 
-<label>Special Requests</label>
-<textarea id="requests"></textarea>
+<label for="requests">Special Requests</label>
+<textarea id="requests" placeholder="Any special requests..."></textarea>
+
+<p id="errorMsg"></p>
+<p id="successMsg"></p>
 
 <button type="submit">Book Now</button>
 
-<p id="message"></p>
-
 </form>
+
 </div>
 
 <script src="script.js"></script>
