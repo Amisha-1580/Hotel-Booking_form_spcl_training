@@ -1,76 +1,80 @@
 🏨 Hotel Booking Form
 📌 Project Overview
 
-The Hotel Booking Form is a web-based form developed as part of an internship task. The goal of this
-project is to build a responsive and interactive booking form that allows users to enter their booking
-details such as check-in/check-out dates, room type, number of guests, and special requests.
+The Hotel Booking Form is a responsive web application developed as part of an internship task. 
+The main objective of this project is to create a user-friendly form that allows users to enter booking 
+details such as check-in and check-out dates, room type, number of guests, and special requests.
 
-As of Day 6, the project now includes dynamic date validation and interactive form behavior using JavaScript.
+The form includes client-side validation, dynamic date restrictions, and responsive design, ensuring a smooth user experience across different devices.
 
+🎯 Project Objectives
 
-🚀 Features Implemented (Up to Day 6)
-🧾 Form Fields
+Develop a functional hotel booking form with multiple fields.
 
-Check-in Date
+Implement date validation to ensure the check-out date is later than the check-in date.
 
-Check-out Date
+Apply form validation for required fields.
 
-Room Type (Single, Double, Suite)
+Create a responsive layout that works on mobile, tablet, and desktop screens.
 
-Number of Guests
-
-Special Requests (Optional)
-
-Submit Button
+Use GitHub for version control to track development progress.
 
 
-🎨 User Interface
+🚀 Features
+🧾 Booking Form Fields
 
-Clean and modern UI design
+The form contains the following input fields:
 
-Styled form inputs, dropdowns, and textarea
+Check-in Date – Select the check-in date.
 
-Hover effects on the submit button
+Check-out Date – Select the check-out date.
 
-Proper spacing and layout for better readability
+Room Type – Dropdown selection (Single, Double, Suite).
 
-📱 Responsive Design
+Number of Guests – Numeric input for guest count.
 
-The form is responsive and works across multiple screen sizes:
+Special Requests – Optional textarea for additional requests.
 
-Mobile Devices (<480px)
-
-Tablets (481px–768px)
-
-Desktop Screens (>768px)
-
-Responsive layout is implemented using:
-
-Flexbox
-
-CSS Media Queries
+Submit Button – Submit booking details.
 
 
-⚙️ JavaScript Interactivity (Day 6)
+⚙️ Form Validation
 
-The form now includes dynamic validation and user feedback:
+The application includes several validation features:
 
 Prevents users from selecting past dates for check-in.
 
-Automatically updates the minimum checkout date based on the selected check-in date.
+Ensures the check-out date is later than the check-in date.
 
-Validates that the check-out date is later than the check-in date.
+Ensures all required fields are filled before submission.
 
-Displays error messages if validation fails.
+Displays error messages when invalid input is detected.
 
-Shows a success message after successful form submission.
+Shows a success message after successful booking submission.
+
+
+📱 Responsive Design
+
+The form layout is responsive and works well across different devices:
+
+Mobile Devices
+
+Tablets
+
+Desktop Screens
+
+Responsive behavior is implemented using:
+
+CSS Flexbox
+
+Media Queries
 
 
 🛠️ Technologies Used
 
-HTML5 – Structure of the form
+HTML5 – Structure of the booking form
 
-CSS3 – Styling and responsive layout
+CSS3 – Styling and responsive design
 
 JavaScript (Vanilla JS) – Form validation and dynamic behavior
 
@@ -85,28 +89,42 @@ Hotel-Booking-Form/
 ├── script.js
 └── README.md
 
-
 ▶️ How to Run the Project
+Open the project folder.
 
-1) Open the project folder.
-
-2) Open index.html in any web browser.
+Open index.html in any web browser.
 
 
-🔮 Upcoming Improvements (Next Steps)
+🌐 Live Demo (Optional)
 
-Improve form validation with better UI alerts.
+If deployed, add your live link here:
 
-Add tooltips or helper text for form fields.
+https://your-live-project-link
 
-Implement booking confirmation messages.
+Example platforms:
 
-Enhance UI/UX for better user interaction.
+GitHub Pages
 
-Deploy the project using GitHub Pages or Netlify.
+Netlify
 
+Vercel
+
+
+📊 Project Evaluation Criteria
+
+The project was developed considering the following evaluation parameters:
+
+Design Quality – UI/UX and responsiveness
+
+Functionality – Date validation and form behavior
+
+Code Quality – Clean and well-structured code
+
+GitHub Usage – Proper commits and repository management
+
+Presentation – Clear explanation of features and implementation
 
 👨‍💻 Author
 
 Amisha S. Bhasme
-Training Project – Hotel Booking Form
+Internship Project – Hotel Booking Form
