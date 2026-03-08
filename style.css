@@ -1,8 +1,12 @@
-body{
-font-family: Arial, sans-serif;
-background:#eef2f3;
+*{
+box-sizing:border-box;
 margin:0;
 padding:0;
+}
+
+body{
+font-family:Arial, sans-serif;
+background:#eef2f3;
 display:flex;
 justify-content:center;
 align-items:center;
@@ -14,12 +18,13 @@ background:white;
 padding:30px;
 border-radius:10px;
 width:400px;
-box-shadow:0 4px 12px rgba(0,0,0,0.15);
+box-shadow:0 4px 15px rgba(0,0,0,0.15);
 }
 
 h1{
 text-align:center;
 margin-bottom:20px;
+color:#333;
 }
 
 form{
@@ -37,22 +42,24 @@ padding:10px;
 margin-top:5px;
 border-radius:5px;
 border:1px solid #ccc;
+font-size:14px;
 }
 
 textarea{
 resize:vertical;
-min-height:60px;
+min-height:70px;
 }
 
 button{
-margin-top:15px;
+margin-top:20px;
 padding:12px;
 background:#2b7cff;
 color:white;
 border:none;
-border-radius:5px;
+border-radius:6px;
 font-size:16px;
 cursor:pointer;
+transition:0.3s;
 }
 
 button:hover{
@@ -71,11 +78,25 @@ font-size:14px;
 margin-top:10px;
 }
 
-@media(max-width:480px){
+/* Responsive Design */
+
+@media(max-width:768px){
 
 .container{
 width:90%;
 padding:20px;
+}
+
+}
+
+@media(max-width:480px){
+
+h1{
+font-size:22px;
+}
+
+button{
+font-size:15px;
 }
 
 }
